@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://barrapunto.com/">
+<title>Barrapunto</title>
+<link>http://barrapunto.com/</link>
+<description>La informaci&#243;n que te interesa</description>
+<dc:language>EN</dc:language>
+<dc:rights>Copyleft 1999-2006, Barrapunto</dc:rights>
+<dc:date>2015-04-21T15:30:10+00:00</dc:date>
+<dc:publisher>Barrapunto S.L.</dc:publisher>
+<dc:creator>webmaster@barrapunto.com</dc:creator>
+<dc:subject>Tecnolog&#237;a, Software libre</dc:subject>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://barrapunto.com/article.pl?sid=15/04/21/1515213&amp;from=rss" />
+  <rdf:li rdf:resource="http://softlibre.barrapunto.com/article.pl?sid=15/04/18/1442201&amp;from=rss" />
+  <rdf:li rdf:resource="http://barrapunto.com/article.pl?sid=15/04/17/1742233&amp;from=rss" />
+  <rdf:li rdf:resource="http://softlibre.barrapunto.com/article.pl?sid=15/04/17/1738222&amp;from=rss" />
+  <rdf:li rdf:resource="http://barrapunto.com/article.pl?sid=15/04/15/1754235&amp;from=rss" />
+  <rdf:li rdf:resource="http://barrapunto.com/article.pl?sid=15/04/15/072227&amp;from=rss" />
+  <rdf:li rdf:resource="http://barrapunto.com/article.pl?sid=15/04/13/225214&amp;from=rss" />
+  <rdf:li rdf:resource="http://eventos.barrapunto.com/article.pl?sid=15/04/13/221253&amp;from=rss" />
+  <rdf:li rdf:resource="http://softlibre.barrapunto.com/article.pl?sid=15/04/13/1435253&amp;from=rss" />
+  <rdf:li rdf:resource="http://americas.barrapunto.com/article.pl?sid=15/04/09/1810202&amp;from=rss" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://barrapunto.com/images/topics/topicbarrapunto.png" />
+<textinput rdf:resource="http://barrapunto.com/search.pl" />
+</channel>
+
+<image rdf:about="http://barrapunto.com/images/topics/topicbarrapunto.png">
+<title>Barrapunto</title>
+<url>http://barrapunto.com/images/topics/topicbarrapunto.png</url>
+<link>http://barrapunto.com/</link>
+</image>
+
+<item rdf:about="http://barrapunto.com/article.pl?sid=15/04/21/1515213&amp;from=rss">
+<title>Twitter se divide, &#191;portazo en las narices a la NSA?</title>
+<link>http://barrapunto.com/article.pl?sid=15/04/21/1515213&amp;from=rss</link>
+<description>ignacio.agullo nos cuenta: &amp;#171;V&amp;#237;a Slashdot nos llega esta noticia. La Rep&amp;#250;blica de Irlanda, conocida por sus bajos impuestos, acoge a muchas compa&amp;#241;&amp;#237;as tecnol&amp;#243;gicas estadounidenses como por ejemplo Microsoft o Amazon; y ahora acoge tambi&amp;#233;n a Twitter. Pero Twitter es diferente a las dem&amp;#225;s: sus nuevos t&amp;#233;rminos de servicio, a aplicar a partir del 18 de mayo de 2015, explican que se ha dividido en dos compa&amp;#241;&amp;#237;as. La estadounidense Twitter, Inc., con las cuentas de usuarios estadounidenses (23%), y la irlandesa Twitter International Company, con las cuentas de usuarios del resto del mundo (77%). En BetaNews, Mark Wilson analiza la jugada: obrando de esta manera, Twitter estar&amp;#237;a situando las cuentas de sus usuarios fuera del alcance legal de la NSA y dem&amp;#225;s agencias estadounidenses de espionaje. &amp;#191;Seguir&amp;#225;n este ejemplo las dem&amp;#225;s compa&amp;#241;&amp;#237;as estadounidenses?&amp;#187;</description>
+<dc:creator>nettizen</dc:creator>
+<dc:date>2015-04-21T14:31:00+00:00</dc:date>
+<dc:subject>privacidad</dc:subject>
+<slash:section>mainpage</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+</item>
+
+<item rdf:about="http://softlibre.barrapunto.com/article.pl?sid=15/04/18/1442201&amp;from=rss">
+<title>Habemus GNU/Hurd 0.6</title>
+<link>http://softlibre.barrapunto.com/article.pl?sid=15/04/18/1442201&amp;from=rss</link>
+<description>Un pobrecito hablador nos cuenta: &amp;#171;Tras a&amp;#241;o y medio de desarrollo, ha aparecido la nueva versi&amp;#243;n del sistema operativo GNU Hurd 0.6, junto con la nueva versi&amp;#243;n de su microkernel GNU Mach 1.5 y su generador de c&amp;#243;digo para manejar RPCs GNU MIG 1.5. Las nuevas caracter&amp;#237;sticas incluyen: procfs, limpieza del c&amp;#243;digo, mejoras en el manejo de mensajes, divisi&amp;#243;n del servidor de inicio en un servidor de arranque y un programa de inicio basado en System V init. Puedes encontrar m&amp;#225;s detalles de las nuevas caracter&amp;#237;sticas en el anuncio en la web del proyecto. Todav&amp;#237;a es para 32 bits. No he podido evitar recordar una vi&amp;#241;eta de xkcd&amp;#187;</description>
+<dc:creator>nettizen</dc:creator>
+<dc:date>2015-04-18T14:00:00+00:00</dc:date>
+<dc:subject>gnu</dc:subject>
+<slash:section>softlibre</slash:section>
+<slash:comments>29</slash:comments>
+<slash:hit_parade>29,29,13,11,2,0,0</slash:hit_parade>
+</item>
+
+<item rdf:about="http://barrapunto.com/article.pl?sid=15/04/17/1742233&amp;from=rss">
+<title>Nokia compra Alcatel-Lucent por 16600 millones de D&#243;lares</title>
+<link>http://barrapunto.com/article.pl?sid=15/04/17/1742233&amp;from=rss</link>
+<description>Leo en Re/code.net que la compa&amp;#241;&amp;#237;a finlandesa Nokia (Nokia Solutions and Networks) compar&amp;#225; a la francesa Alcatel-Lucent por 16600 millones de d&amp;#243;lares. El pago se realizar&amp;#225; mediante intercambio de acciones. La compa&amp;#241;&amp;#237;a resultante competir&amp;#225; directamente con la sueca Ericsson y la china Huawei en el mercado de equipos de telecomunicaciones profesionales. A finales de 2013, Nokia vendi&amp;#243; a Microsoft su divisi&amp;#243;n de tel&amp;#233;fonos m&amp;#243;viles, conservando la divisi&amp;#243;n de equipos de redes para grandes clientes. La propia Nokia ha anunciado tambi&amp;#233;n que estudiar&amp;#225;n la venta de su negocio de mapas HERE. Nokia tiene actualmente 62000 empleados a nivel mundial; Alcatel-Lucent tiene 52000. El acuerdo de fusi&amp;#243;n no se completar&amp;#225; hasta 2016, y est&amp;#225; todav&amp;#237;a sujeto a la aprobaci&amp;#243;n de las autoridades reguladoras. En 2014, Francia modific&amp;#243; una ley para considerar las industrias de telecomunicaciones como sector de especial inter&amp;#233;s, al mismo nivel que la energ&amp;#237;a, el agua, el transporte o la salud, con el fin de bloquear la compra de Alstom por General Electric. Entre los activos de Alcatel-Lucent se encuentran los laboratorios de investigaci&amp;#243;n Bell Labs. Las condiciones del acuerdo se explican en la nota de prensa conjunta de ambas compa&amp;#241;&amp;#237;as, accesible en las webs de Nokia y de Alcatel-Lucent. M&amp;#225;s opiniones en Hacker News y Slashdot.</description>
+<dc:creator>jperex (posted by nettizen)</dc:creator>
+<dc:date>2015-04-17T17:20:00+00:00</dc:date>
+<dc:subject>Moviles</dc:subject>
+<slash:section>mainpage</slash:section>
+<slash:comments>7</slash:comments>
+<slash:hit_parade>7,6,1,0,0,0,0</slash:hit_parade>
+</item>
+
+<item rdf:about="http://softlibre.barrapunto.com/article.pl?sid=15/04/17/1738222&amp;from=rss">
+<title>IV edici&#243;n del Ranking de universidades en software libre</title>
+<link>http://softlibre.barrapunto.com/article.pl?sid=15/04/17/1738222&amp;from=rss</link>
+<description>Ya es publica la 4 edici&amp;#243;n del Ranking de universidades en software libre que cada a&amp;#241;o lanza PortalProgramas. Este a&amp;#241;o cuenta con una buena novedad ya que ademas de incluir en su estudio 76 universidades espa&amp;#241;olas ha incluido tambi&amp;#233;n 67 universidades hispanoamericanas.</description>
+<dc:creator>redcomunica (posted by nettizen)</dc:creator>
+<dc:date>2015-04-17T14:56:00+00:00</dc:date>
+<dc:subject>Administraciones</dc:subject>
+<slash:section>softlibre</slash:section>
+<slash:comments>1</slash:comments>
+<slash:hit_parade>1,0,0,0,0,0,0</slash:hit_parade>
+</item>
+
+<item rdf:about="http://barrapunto.com/article.pl?sid=15/04/15/1754235&amp;from=rss">
+<title>Estonia permite a extranjeros acceder a la e-residencia</title>
+<link>http://barrapunto.com/article.pl?sid=15/04/15/1754235&amp;from=rss</link>
+<description>Estonia ha lanzado la segunda fase de su programa e-Residency, destinado a ciudadanos extranjeros que visiten el pa&amp;#237;s, o que tengan inter&amp;#233;s en utilizar sus servicios p&amp;#250;blicos electr&amp;#243;nicos (principalmente, emprendedores que deseen crear una empresa en Estonia). Se trata de un programa de distribuci&amp;#243;n de tarjetas criptogr&amp;#225;ficas Digi-ID, un documento de identidad digital para no residentes que permite la autenticaci&amp;#243;n y firmado de documentos digitales. Es una tarjeta smartID con chip de contacto que aloja en su interior dos certificados, autenticaci&amp;#243;n y firma (protegidos por PIN), que son reconocidos por todos los miembros de la Uni&amp;#243;n Europea. Por tanto, permite realizar operaciones de autenticaci&amp;#243;n y cifrado an&amp;#225;logas a las realizadas con un DNI-e espa&amp;#241;ol. Para obtener la tarjeta Digi-ID, deberemos dirigirnos a una comisar&amp;#237;a de polic&amp;#237;a dentro de territorio estonio, o bien a una embajada u oficina consular en una treintena de pa&amp;#237;ses. El tr&amp;#225;mite en las embajadas cuesta 80 euros, y necesitaremos rellenar un impreso de solicitud junto a una fotograf&amp;#237;a a color, y presentar un documento de identidad. e-Residency, no se puede usar como documento de identificaci&amp;#243;n presencial ni como documento de viaje. e-Residency no proporciona permiso de residencia en Estonia ni derechos de ciudadan&amp;#237;a, sino que es un servicio paralelo al programa de servicios de administraci&amp;#243;n electr&amp;#243;nica e-Estonia para nacionales estonios, cuya base s&amp;#237; un DNI electr&amp;#243;nico completo, y que pretende convertir Estonia en uno de los pa&amp;#237;ses con m&amp;#225;s servicios electr&amp;#243;nicos accesibles para ciudadanos (incluyendo la votaci&amp;#243;n electr&amp;#243;nica, cuya seguridad ha sido puesta en duda por estudios externos, rebatidos por el gobierno de Estonia). M&amp;#225;s informaci&amp;#243;n sobre e-Residency aqu&amp;#237;. Para m&amp;#225;s informaci&amp;#243;n sobre la validez de las firmas digitales en Europa, existe un estudio aqu&amp;#237;. M&amp;#225;s opiniones en Hacker News.</description>
+<dc:creator>jperex (posted by nettizen)</dc:creator>
+<dc:date>2015-04-15T17:11:00+00:00</dc:date>
+<dc:subject>administraciones</dc:subject>
+<slash:section>mainpage</slash:section>
+<slash:comments>22</slash:comments>
+<slash:hit_parade>22,22,3,0,0,0,0</slash:hit_parade>
+</item>
+
+<item rdf:about="http://barrapunto.com/article.pl?sid=15/04/15/072227&amp;from=rss">
+<title>Recetas con creatividad artificial</title>
+<link>http://barrapunto.com/article.pl?sid=15/04/15/072227&amp;from=rss</link>
+<description>Cari Romm en The Atlantic informa sobre las investigaciones del equipo de cocina cognitiva de IBM. A partir de muchas recetas en la red, el sistema Watson descubre qu&amp;#233; ingredientes combinan entre s&amp;#237; y propone mezclas sorprendentes que sus c&amp;#225;lculos consideran que saben bien. Cocineros humanos entonces intentan convertir las propuestas en platos y las sirven desde un furg&amp;#243;n. Las recetas de Watson est&amp;#225;n disponibles en la web de IBM y en un nuevo libro. El men&amp;#250; incluye 'empanadillas criollas de cordero y gambas', 'tarta b&amp;#225;ltica de manzana' o 'pudin belga de beicon'. Tambi&amp;#233;n se pueden ver recetas de otros cocineros a partir de los ingredientes de Watson. Si las combinaciones de la creatividad artificial no te acaban de gustar, tal vez necesites el toque especial de otro robot.</description>
+<dc:creator>Ricardo Estalm&#225;n (posted by nettizen)</dc:creator>
+<dc:date>2015-04-15T06:20:00+00:00</dc:date>
+<dc:subject>cocina</dc:subject>
+<slash:section>mainpage</slash:section>
+<slash:comments>12</slash:comments>
+<slash:hit_parade>12,12,3,1,0,0,0</slash:hit_parade>
+</item>
+
+<item rdf:about="http://barrapunto.com/article.pl?sid=15/04/13/225214&amp;from=rss">
+<title>Retenci&#243;n de datos y 'jaulas de canario' en Australia</title>
+<link>http://barrapunto.com/article.pl?sid=15/04/13/225214&amp;from=rss</link>
+<description>Leo en Ars Technica que el Parlamento australiano ha aprobado una enmienda a su Ley de Telecomunicaciones de 1979 para obligar a los proveedores de servicio a almacenar durante dos a&amp;#241;os los metadatos de las comunicaciones de sus clientes, con el objetivo de combatir actividades criminales como la explotaci&amp;#243;n infantil o el terrorismo. El cambio en la ley afecta a todos los ciudadanos australianos. Sin embargo, la nueva enmienda establece un r&amp;#233;gimen especial de garant&amp;#237;as para la informaci&amp;#243;n period&amp;#237;stica, en la que pasa a estar penado con dos a&amp;#241;os de prisi&amp;#243;n la revelaci&amp;#243;n sobre 'la existencia o no existencia' de procedimientos de investigaci&amp;#243;n (secci&amp;#243;n 182A), lo que en la pr&amp;#225;ctica equivale a prohibir procedimientos como los "'canarios cantores'" ('jaulas de canario'), utilizados por muchos administradores de servidores inform&amp;#225;ticos para informar a sus usuarios sobre la existencia o no de inspecciones bajo autoridad judicial (un ejemplo real puede verse aqu&amp;#237;. El gobierno australiano ha explicado que los datos obtenidos no ser&amp;#225;n utilizados para combatir las vulneraciones de copyright, aunque eso no ha impedido a los tribunales acceder a datos de navegaci&amp;#243;n de los usuarios en litigios sobre compartici&amp;#243;n de ficheros con copyright. El texto de la enmienda aprobada est&amp;#225; disponible en la web del Parlamento australiano. Si preferimos un resumen r&amp;#225;pido, podemos consultar crikey.com. M&amp;#225;s opiniones en Hacker News y en Slashdot. Una directiva similar sobre retenci&amp;#243;n de datos aprobada en la Uni&amp;#243;n Europea en 2005 fue declarada inv&amp;#225;lida en 2014.</description>
+<dc:creator>jperex (posted by nettizen)</dc:creator>
+<dc:date>2015-04-13T22:22:00+00:00</dc:date>
+<dc:subject>privacidad</dc:subject>
+<slash:section>mainpage</slash:section>
+<slash:comments>2</slash:comments>
+<slash:hit_parade>2,2,0,0,0,0,0</slash:hit_parade>
+</item>
+
+<item rdf:about="http://eventos.barrapunto.com/article.pl?sid=15/04/13/221253&amp;from=rss">
+<title>Mini Maker Faire (25 de abril, Medialab Prado Madrid)</title>
+<link>http://eventos.barrapunto.com/article.pl?sid=15/04/13/221253&amp;from=rss</link>
+<description>Un pobrecito hablador nos cuenta: &amp;#171;El 25 de Abril se celebra en el Medialab Prado de Madrid la Mini Maker Faire. Un evento donde 'makers' de diversa &amp;#237;ndole mostrar&amp;#225;n sus proyectos 'DIY' y 'DIWO'. Tecnolog&amp;#237;a, ciencia y arte podr&amp;#225;n verse en los puestos, charlas y talleres que ese d&amp;#237;a se ofrecer&amp;#225;n. La entrada es gratuita pero hay que registrarse para obtenerla.&amp;#187;</description>
+<dc:creator>nettizen</dc:creator>
+<dc:date>2015-04-13T21:14:00+00:00</dc:date>
+<dc:subject>Cultura hacker</dc:subject>
+<slash:section>eventos</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+</item>
+
+<item rdf:about="http://softlibre.barrapunto.com/article.pl?sid=15/04/13/1435253&amp;from=rss">
+<title>Disponible nuevo n&#250;cleo Linux 4.0</title>
+<link>http://softlibre.barrapunto.com/article.pl?sid=15/04/13/1435253&amp;from=rss</link>
+<description>Un pobrecito hablador nos cuenta: &amp;#171;Se acaba de anunciar la disponibilidad del n&amp;#250;cleo Linux 4.0. Entre las novedades a destacar cabe rese&amp;#241;ar: actualizaci&amp;#243;n del n&amp;#250;cleo 'en caliente'; mejoras en DRM, y mejoras en los controladores gr&amp;#225;ficos para Intel, nVidia y Radeon; soporte de m&amp;#225;s hardware ARM y de IBM z13; soporte para virtIO 1.0; mejoras en RAID 5/6 para BRTFS; y muchas m&amp;#225;s. Pronto podr&amp;#225; consultarse la lista con todos los cambios de la versi&amp;#243;n. Tambi&amp;#233;n est&amp;#225; disponible una lista con las novedades que se podr&amp;#237;an incorporar en la versi&amp;#243;n 4.1.&amp;#187;</description>
+<dc:creator>nettizen</dc:creator>
+<dc:date>2015-04-13T13:52:00+00:00</dc:date>
+<dc:subject>kernel linux</dc:subject>
+<slash:section>softlibre</slash:section>
+<slash:comments>5</slash:comments>
+<slash:hit_parade>5,5,3,3,0,0,0</slash:hit_parade>
+</item>
+
+<item rdf:about="http://americas.barrapunto.com/article.pl?sid=15/04/09/1810202&amp;from=rss">
+<title>Obama aprueba una Orden Ejecutiva para combatir ciberataques</title>
+<link>http://americas.barrapunto.com/article.pl?sid=15/04/09/1810202&amp;from=rss</link>
+<description>Leo en Bloomberg que el presidente estadounidense Barack Obama ha calificado de 'emergencia nacional' la situaci&amp;#243;n en la que se encuentra EE.UU. frente a ciberataques externos, y por ello ha redactado una Orden Ejecutiva (PDF) en la que se dictan sanciones econ&amp;#243;micas contra aquellos que utilicen medios inform&amp;#225;ticos para atacar los intereses de EE.UU., tanto en territorio norteamericano como en el exterior. En principio, la nueva ley permitir&amp;#225; al departamento del tesoro congelar activos econ&amp;#243;micos radicados en EE.UU. de personas f&amp;#237;sicas o jur&amp;#237;dicas cuyas actividades afecten la seguridad nacional, la pol&amp;#237;tica exterior, o la econom&amp;#237;a norteamericana. Aunque el documento se ha querido presentar como un medio para combatir el espionaje de pa&amp;#237;ses extranjeros o el robo de secretos industriales y comerciales, la redacci&amp;#243;n de la orden ejecutiva supone de-facto que las personas que realizan donaciones a Snowden, Assange o cualquier otra voz contraria a las pol&amp;#237;ticas estadounidenses puedan sufir sanciones y embargos de sus cuentas en bancos norteamericanos. La respuesta inmediata ha sido un incremento en las donaciones a Snowden via Bitcoin. Adem&amp;#225;s, un ciudadano de Oregon ha llamado a la desobediencia civil contra la orden ejecutiva realizando una donaci&amp;#243;n a Snowden, y autoinculp&amp;#225;ndose de manera p&amp;#250;blica. Por otro lado, la nueva orden ejecutiva tambi&amp;#233;n podr&amp;#237;a usarse para dificultar el trabajo de los profesionales de la ciberseguridad, ya que se penaliza la tenencia de herramientas y medios tecnol&amp;#243;gicos para realizar ataques, que en muchos casos resultan ser las mismas herramientas usadas para el dise&amp;#241;o de herramientas de protecci&amp;#243;n y el estudio no belicoso de vulnerabilidades. M&amp;#225;s opiniones en Slashdot y en Hacker News.</description>
+<dc:creator>jperex (posted by nettizen)</dc:creator>
+<dc:date>2015-04-09T16:26:00+00:00</dc:date>
+<dc:subject>noticias</dc:subject>
+<slash:section>americas</slash:section>
+<slash:comments>9</slash:comments>
+<slash:hit_parade>9,9,3,1,0,0,0</slash:hit_parade>
+</item>
+
+<textinput rdf:about="http://barrapunto.com/search.pl">
+<title>Search Barrapunto</title>
+<description>Search Barrapunto stories</description>
+<name>query</name>
+<link>http://barrapunto.com/search.pl</link>
+</textinput>
+
+</rdf:RDF>
