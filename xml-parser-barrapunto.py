@@ -28,7 +28,7 @@ class myContentHandler (ContentHandler):
     def endElement(self, name):
         if name == 'item':
             self.salida += ("-Title:  <a href=" + self.link + ">" +
-                            self.name + "</li>\n<br>")
+                            self.name + "</a>\n<br>")
             self.name = ""
             self.link = ""
             self.inItem = False
